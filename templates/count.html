@@ -1,0 +1,11 @@
+<h1>There are {{ count }} word in your text</h1>
+
+{{ fulltext }}
+<h1> Word Count : </h1>
+
+{% for word, c in worddict.items %}
+{{ word }}
+<br/>
+{{ c }}
+<br/>
+{% endfor %}
